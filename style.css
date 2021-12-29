@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* start of navbar */
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+}
+nav img{
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+nav ul li{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    list-style: none;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+background-color: rgb(56, 15, 22,.5);
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+/* end of navbar */
+/* start of img section */
+
+.img_sec{
+    width: 100%;
+}
+.img_sec img{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.img_sec h1{
+    position:absolute;
+    top:150px;
+    left: 400px;
+    color: white;
+    font-size: 40px;
+}
+.img_sec .btn{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+.img_sec .btn button{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+/* end of img section */
+/* start of tabel section */
+.tabel_sec{
+    margin-top: 100px;
+}
+.tabel_sec h1{
+text-align: center;
+margin-bottom: 30px;
+font-size: 35px;
+}
+.tabel_sec table{
+border-collapse: collapse;
+margin: auto;
+}
+.tabel_sec table img{
+    width: 50px;
+    height: 40px;
+}
+.tabel_sec table th,td{
+    border: 2px solid rgb(97, 20, 20);
+    padding: 2px 30px;
+}
+.tabel_sec tbody tr:nth-child(odd){
+    background-color: gray;
+}
+.tabel_sec tbody tr:nth-child(odd){
+    background-color: gray;
+}.tabel_sec tbody tr:nth-child(even){
+    background-color: #444444;
+}
+.tabel_sec table button{
+    color: white;
+    background-color:  rgb(97, 20, 20);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+}
+/* end of tabel section */
+ /* start of subscribe section  */
+ .sub{
+     margin-top: 40px;
+ }
+ .sub h1{
+     text-align: center;
+ }
+ .image{
+     background-image: url("photos/back.jpeg");
+     background-size: 70%;
+     height: 410px;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-top: 20px;
+     position: relative;
+     
+ }
+ .sub img{
+     width: 250px;
+     height: 150px;
+ }
+ .sub .html{
+width: 250px;
+height: 500px;
+position: absolute;
+top: 50px;
+left: 250px;
+ }
+ .sub .css{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+ }
+ .sub .js{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 850px;
+ }
+.sub h3, .sub p{
+    text-align: center;
+    background-color: gray;
+    padding-top: 0;
+}
+.sub h3{
+    font-family: 'Pushster', cursive;
+
+}
+.sub p{
+    color: rgb(255, 255, 255,.7);
+}
+.sub button{
+    padding: 10px 0px;
+    background-color: rgb(97, 20, 20);
+    color: white;
+    border: 0;
+    width: 250px;
+}
+.container{
+    margin-top: 30px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.container img{
+width: 150px;
+height: 150px;
+margin-left: 150px;
+margin-top: 15px;
+}
+.container h3{
+    text-align: center;
+    padding-top: 0;
+    font-family: 'Pushster', cursive;
+    margin-top: 10px;
+}
+.container p{
+    text-align: center;
+    padding-top: 0;
+    color: white;
+    margin-top: 10px;
+}
+.container button{
+    padding: 10px 0px;
+    background-color: rgb(97, 20, 20);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 140px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.container .php{
+position: absolute;
+top:30px;
+left: 20px;
+width: 47%;
+background-color: rgb(136, 178, 204,.7);
+border-radius: 10px;
+height: 350px;
+}
+.container .mysql{
+    position: absolute;
+    top:30px;
+    left: 52%;
+    width: 47%;
+    background-color:rgba(252, 127, 11, 0.877);
+    border-radius: 10px;
+    height: 350px;
+}
+ /* end of subscribe section  */
+ /*start of footer  */
+footer{
+    background-color: rgb(97, 20, 20);
+    height: 100px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+footer .p{
+    font-family:'Pushster', cursive;
+}
+footer .pp{
+    padding-top: 30px;
+    font-size: 20px;
+}
+  /*end of footer  */
+
